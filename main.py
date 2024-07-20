@@ -10,7 +10,7 @@ PATH_JSON_CON = config.PATH_JSON_CON
 
 bot = telebot.TeleBot(TOKEN)
 
-# Налаштування доступу до Google Sheets
+
 scope = [
     "https://spreadsheets.google.com/feeds",
     "https://www.googleapis.com/auth/drive",
